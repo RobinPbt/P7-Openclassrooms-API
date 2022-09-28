@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from utils import *
+from config import *
 
 import pandas as pd
 import numpy as np
