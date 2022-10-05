@@ -14,3 +14,9 @@ The other repositories about this project can be found on the following links :
 - Dashboard : https://github.com/RobinPbt/P7-Openclassrooms-Dashboard
 
 The dashboard application can be found on the following link : https://p7-openclassrooms-dash.herokuapp.com/
+
+# Run locally
+
+If you want to run locally the API, you can directly download the files and launch your console with the command "python app.py", the URLS would be (replace XXXX by the corresponding port) :
+- http://127.0.0.1:XXXX/api/predict-existing/ --> in order to get a result you must specify parameter id_customer in your GET request (ex: http://127.0.0.1:XXXX/api/predict-existing/?id_customer=110503)
+- http://127.0.0.1:XXXX/api/predict-new/ --> this would only work with a POST HTTP request containing the file of the new customer in the preprocessed format
